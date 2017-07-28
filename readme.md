@@ -47,4 +47,7 @@
 ```
 
 
+#### 如果不想使用邮箱服务，可在app/DDL/Services/AuthService.php 中暂停邮件服务 注释掉即可, 位于67行-74行
+
+
 

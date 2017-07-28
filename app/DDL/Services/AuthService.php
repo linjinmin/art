@@ -63,7 +63,7 @@ class AuthService extends BaseService
             ]);
         }
 
-        // 发送邮件
+        // 发送邮件, sendcloud
         Mail::send('email.empty', [], function ($message) use ($email, $code) {
             $message->from(config('ddl.email'), '园丁鸟');
             $message->to($email)->cc('bar@example.com');
