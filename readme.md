@@ -13,6 +13,11 @@
 	mv env.example .env
 ```
 
+#### 执行composer install 命令
+```php
+	composer install
+```
+
 #### 编辑配置文件.env
 
 ```php
